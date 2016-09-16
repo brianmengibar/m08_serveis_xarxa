@@ -2,3 +2,5 @@
 ## Escola del Treball
 
 	Brian Mengibar Garcia
+		HISX2
+
