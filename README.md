@@ -4,4 +4,4 @@
 **Brian Mengibar Garcia**
 
 
-   *Actualment cursant:* **HISX2**
+*Actualment cursant:* **HISX2**
