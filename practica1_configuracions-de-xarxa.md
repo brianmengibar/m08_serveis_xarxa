@@ -2,17 +2,17 @@
 ##**Brian Mengibar Garcia**
 
 ###1- Configureu dos ordinadors fent servir la comanda ip amb dues adreces del rang 172.16.0.0 i comproveu que es veuen entre si. Indiqueu les comandes que heu utilitzat a)per configurar-les b) per comprovar que es veuen.
-	**a) ip addr add 172.16.0.10/24 dev enp5s0**
-	**b) ping 172.16.0.11**
+	a) ip addr add 172.16.0.10/24 dev enp5s0
+	b) ping 172.16.0.11
 
 ###2-Com podem descobrir l'adreça mac d'un altre dispositiu de la nostra xarxa (que no sigui el nostre)? Indiqueu-ne les comandes i la sortida.
-	**arp 172.16.0.11**
-	**Address                  HWtype  HWaddress           Flags Mask            Iface**
-	**172.16.0.11               ether   40:8d:5c:e4:36:fa   C                     enp5s0**
+	arp 172.16.0.11
+	Address                  HWtype  HWaddress           Flags Mask            Iface
+	172.16.0.11               ether   40:8d:5c:e4:36:fa   C                     enp5s0
 
 ###3-Com podem canviar el nom d'una interfície de xarxa amb la comanda ip? Poseu exemple
-Primer descactivem la superficie
-	**ip link set enp5s0 down**
+**Primer descactivem la superficie**
+	ip link set enp5s0 down
 
 **Posem el nou nom**
 	ip link set enp5s0 name ethernet0
