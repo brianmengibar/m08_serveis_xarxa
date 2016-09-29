@@ -1,7 +1,6 @@
 #Practica 1
 ##**Brian Mengibar Garcia**
 
-**Totes com a root:**
 **1- Configureu dos ordinadors fent servir la comanda ip amb dues adreces del rang 172.16.0.0 i comproveu que es veuen entre si. Indiqueu les comandes que heu utilitzat a)per configurar-les b) per comprovar que es veuen.**
 	a) ip addr add 172.16.0.10/24 dev enp5s0
 	b) ping 172.16.0.11
