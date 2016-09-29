@@ -57,7 +57,7 @@
 **Si hem fet manualment el fitxer primer tenim que fer un reload**
 	nmcli con reload
 
-##Seguidament fem un up
+**Seguidament fem un up**
 	nmcli con up net-eth0 
 
 	
