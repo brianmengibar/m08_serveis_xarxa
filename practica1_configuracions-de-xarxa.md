@@ -70,5 +70,4 @@
 	www.google.com has address 216.58.210.196
 	www.google.com has IPv6 address 2a00:1450:4006:804::2004
 	host 77.246.182.82
-	82.182.246.77.in-addr.arpa domain name pointer andubay.com
 	
